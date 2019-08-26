@@ -1,0 +1,55 @@
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowFileExtensions -DisableOpenFileExplorerToQuickAccess
+# auto hide tray icons
+Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer -Name EnableAutoTray -Type DWord -Value 1
+
+cinst chocolatey # installing chocolatey with chocolatey?!
+cinst git.install
+
+#cinst notepadplusplus
+#cinst vscode
+
+#cinst nodejs-lts
+
+#cinst diffmerge
+#cinst p4merge
+
+#cinst sql-server-express
+#cinst sql-server-management-studio
+#cinst pgadmin4
+#cinst dbeaver # better than pgadmin4...
+
+#cinst 7zip.install
+# cinst hipchat
+#cinst insomnia # rest client
+#cinst rdcman # remote desktop connection manager
+
+#cinst visualstudio2017professional
+#cinst resharper
+#cinst dotcover
+cinst jetbrains-rider
+cinst dotpeek
+
+cinst IIS-WebServerRole -source windowsfeatures
+cinst Microsoft-Hyper-V-All -source windowsFeatures
+
+#cinst docker-for-windows
+
+# additions
+#cinst 1password
+#cinst robo3t
+#cinst cmdermini
+#cinst awscli
+#cinst terraform
+#cinst azure-cli
+#cinst dotmemory
+#cinst dottrace
+#cinst slack
+#cinst soapui
+#cinst fiddler4
+#cinst sysinternals
+#cinst windirstat
+
+#cinst kindle
+#cinst sendtokindle
+#cinst firefox
+#cinst googlechrome
