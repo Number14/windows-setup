@@ -19,7 +19,7 @@ cinst p4merge
 #cinst dbeaver # better than pgadmin4...
 
 cinst 7zip.install
-cinst insomnia # rest client
+cinst insomnia-rest-api-client # rest client
 #cinst rdcman # remote desktop connection manager
 
 cinst visualstudio2019professional
